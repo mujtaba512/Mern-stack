@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Assignment 1</title>
+  </head>
+  <body>
+    <form>
+      <label style="margin-left: 200px">Email Address</label>
+      <input type="email" name="emali" />
+      <label style="margin-left: 250px">Password</label>
+      <input type="password" name="password" />
+    </form>
+    <fieldset>
+      <legend>Personal Profile</legend>
+      <!-- Left Section -->
+      <section class="left">
+        <table>
+          <tr>
+            <td><label for="name">Name</label></td>
+            <td><input id="name" type="text" /></td>
+          </tr>
+          <tr>
+            <td><label for="fcnic">CNIC No.</label></td>
+            <td>
+              <p>
+                <input id="fcnic" type="text" maxlength="5" size="2"/>-<input
+                  id="fcnic"
+                  type="text"
+                  maxlength="7"
+                  size="4"
+                />-<input id="fcnic" type="text" maxlength="1" size="1"/>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="iub">IUB Registeration No.<sub>(if Any)</sub></label>
+            </td>
+            <td><input id="iub" type="text" /></td>
+          </tr>
+          <tr>
+            <td><label for="dob">Date of Birth</label></td>
+            <td><input type="date" value="yyyy-mm-dd" /></td>
+          </tr>
+          <tr>
+            <td><label for="religion">Religion</label></td>
+            <td>
+              <select name="religion" id="religion">
+                <option>Select</option>
+                <option value="islam">Islam</option>
+                <option value="christian">Christian</option>
+                <option value="jew">Jew</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="hafiz">Hafiz-e-Quran</label></td>
+            <td>
+              <select name="hafiz" id="hafiz">
+                <option>Select</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="address">Postal Address</label></td>
+            <td>
+              <p>
+                <textarea
+                  name="address"
+                  id="address"
+                  cols="20"
+                  rows="7"
+                ></textarea>
+              </p>
+            </td>
+          </tr>
+        </table>
+      </section>
+      <!-- Right Section -->
+      <section class="left">
+        <table>
+          <tr>
+            <td><label for="gender">Gender</label></td>
+            <td>
+              <input type="radio" name="gender" id="male" value="male" />
+              <label style="width: 20px; margin-right: 20px" for="male"
+                >Male</label
+              >
+              <input type="radio" id="femail" name="gender" value="female" />
+              <label style="width: 20px" for="female">Female</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="pic">Picture</label></td>
+            <td><input id="pic" type="file" name="pic" /></td>
+          </tr>
+          <tr>
+            <td><label for="phone">Landline No.</label></td>
+            <td><input id="phone" type="text" /></td>
+          </tr>
+          <tr>
+            <td><label for="number">Mobile No.</label></td>
+            <td>
+              <p style="font-family: Monaco, monospace">
+                +92-<input id="phone" type="tel" maxlength="10" size="7" />
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="nationality">Nationality</label></td>
+            <td><input id="nationality" type="text" /></td>
+          </tr>
+          <tr>
+            <td><label for="province">Domicile(Province)</label></td>
+            <td>
+              <select name="province" id="province">
+                <option>Select</option>
+                <option value="fedral">Fedral</option>
+                <option value="punjab">Punjab</option>
+                <option value="kpk">Khyber Pakhtunkhwa</option>
+                <option value="sindh">Sindh</option>
+                <option value="balochistan">Balochistan</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+      </section>
+    </fieldset>
+    <fieldset>
+      <legend>Father Information</legend>
+      <!-- Left Section -->
+      <section class="left">
+        <table>
+          <tr>
+            <td><label for="father">Father Name</label></td>
+            <td><input id="father" type="text" /></td>
+          </tr>
+          <tr>
+            <td><label for="fphone">Phone Number</label></td>
+            <td><input id="fphone" type="text" /></td>
+          </tr>
+        </table>
+      </section>
+      <!-- Right Section -->
+      <section class="left">
+        <table>
+          <tr>
+            <td><label for="fcnic">CNIC No.</label></td>
+            <td>
+              <p>
+                <input id="fcnic" type="text" maxlength="5" size="2" />-<input
+                  id="fcnic"
+                  type="text"
+                  maxlength="7"
+                  size="4"
+                />-<input id="fcnic" type="text" maxlength="1" size="1" />
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="income">Monthly Income</label></td>
+            <td><input id="income" type="text" /></td>
+          </tr>
+        </table>
+      </section>
+  </body>
+</html>

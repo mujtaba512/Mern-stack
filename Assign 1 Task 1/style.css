@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+.left {
+  float: left;
+  width: 50%;
+}
+label {
+  width: 240px;
+  display: inline-block;
+}
